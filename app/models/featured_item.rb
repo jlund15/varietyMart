@@ -1,0 +1,2 @@
+class FeaturedItem < ApplicationRecord
+end

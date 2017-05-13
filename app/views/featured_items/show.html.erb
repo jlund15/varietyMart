@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @featured_item.image %>
+</p>
+
+<p>
+  <strong>Subtitle:</strong>
+  <%= @featured_item.subtitle %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @featured_item.body %>
+</p>
+
+<%= link_to 'Edit', edit_featured_item_path(@featured_item) %> |
+<%= link_to 'Back', featured_items_path %>
